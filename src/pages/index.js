@@ -24,7 +24,7 @@ export default function Home() {
           <div className={styles.corte}>
             <p className={styles.h1}>Precisando de dinheiro?</p>
             <p className={styles.h3__word}>
-              Fazemos emprestimo para BPC-LOAS, Aposentados, Pensionistas,
+              Fazemos emprestimo para Aposentados, Pensionistas,
               Servidores Públicos e FGTS
             </p>
             <p className={styles.h3}>
@@ -48,7 +48,7 @@ export default function Home() {
         <div className={styles.fixed}>
           <h3 className={styles.simulacao__title}>Simulação Emprestimo</h3>
           <p className={styles.simulacao__words}>
-            Simule e contrate sem sair de casa para BPC-LOAS, Aposentados,
+            Simule e contrate sem sair de casa para Aposentados,
             Pensionistas, Servidores Públicos e FGTS
           </p>
           <p className={styles.simulacao__words}>

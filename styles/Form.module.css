@@ -139,6 +139,9 @@
   margin-top: 10px;
   font-size: 0.85rem;
 }
+.btn:hover{
+ cursor: pointer;
+}
 
 .container__section3 {
   height: 100vh;

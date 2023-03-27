@@ -244,8 +244,9 @@
 .form__center {
   display: flex;
   flex: 2;
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-bottom: 3rem;
+  justify-content: center;
 }
 .form__center2 {
   display: flex;
