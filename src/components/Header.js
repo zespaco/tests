@@ -12,9 +12,14 @@ const Header = () => {
       </div>
       <div className={styles.main__header}>
         <div className={styles.container}>
+          <div>
           <a href="#" id={styles.logo}>
-            Espaço Digital <br /> Financeiro
+            Espaço Digital
           </a>
+          <a href="#" id={styles.logo}>
+             Financeiro
+          </a>
+          </div>
 
           <div className={styles.navbar}>
           <DropDown></DropDown>

@@ -74,12 +74,10 @@
 .img {
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-position-x: center;
-
-  background-image: url(https://i.ibb.co/Ks8kQKS/online.png);
-  background-color: #009edf;
   clip-path: polygon(100% -90%, 100% 100%, 50% 100%, 0% 50%);
+
+  /* background-image: url(https://i.ibb.co/Ks8kQKS/online.png); */
+  /* background-color: #009edf; */
 }
 
 .corte {
@@ -268,11 +266,6 @@
   font-weight: bold;
 }
 
-
-
-/*  */
-
-
 .navbar {
  display: flex;
  justify-content: center;
@@ -284,13 +277,8 @@
   margin: 0 2rem;
   font-size: 1rem;
   font-weight: 600;
-  /* background-color: #e4e3e3; */
-  /* opacity: 0.5; */
 }
 
-.aas:hover{
-  /* background-color: #ffffff; */
-}
 
 .nomes__drop{
   color: black;

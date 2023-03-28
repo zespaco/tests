@@ -20,7 +20,7 @@
 }
 .section2 {
   flex: 1.5;
-  padding-right:7.5rem;
+  padding-right: 7.5rem;
   background-color: #efefef;
 }
 
@@ -89,9 +89,6 @@
   font-weight: bold;
 }
 
-
-
-
 .group__form {
   display: flex;
   align-items: center;
@@ -102,7 +99,6 @@
   display: flex;
   flex-direction: column;
   padding: 0.25rem 0rem;
-  /* margin-bottom: 1rem; */
 }
 
 .input__label {
@@ -139,8 +135,8 @@
   margin-top: 10px;
   font-size: 0.85rem;
 }
-.btn:hover{
- cursor: pointer;
+.btn:hover {
+  cursor: pointer;
 }
 
 .container__section3 {
@@ -152,7 +148,6 @@
   align-items: center;
 }
 
-
 .simulacao__contato {
   padding-top: 0.5rem;
   font-weight: bold;
@@ -161,14 +156,12 @@
   margin-bottom: 0.25rem;
 }
 
-
-.tests{
+.tests {
   display: flex;
   flex-direction: column;
-  /* height: 5rem; */
   flex-wrap: wrap;
 }
 
-.display{
+.display {
   display: flex;
 }

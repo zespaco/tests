@@ -7,6 +7,8 @@ import Form from "../components/Form";
 import CardEmprestimo from "../components/CardEmprestimo";
 import CardCartao from "../components/CardCartao";
 
+import Image from "next/image";
+import profilePic from '../../public/online.png'
 
 export default function Home() {
   return (
@@ -39,7 +41,15 @@ export default function Home() {
             </section>
           </div>
           <div className={styles.corte2}>
-            <img className={styles.img} />
+          <Image
+        src={profilePic}
+        alt="Picture of the author"
+        className={styles.img}
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
           </div>
         </section>
       </main>
