@@ -1,0 +1,127 @@
+.footer {
+  background-color: #f5f5f5;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  margin-bottom: 0.5rem;
+}
+
+.links a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #333;
+}
+
+.social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social li {
+  margin-right: 1rem;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom {
+  margin-top: 1rem;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.bottom a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.bottom a:hover {
+  color: #333;
+}
+
+.logoicone {
+  width: 10rem;
+  height: 10rem;
+}
+
+.img__whats {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.contato {
+  margin-bottom: 1rem;
+}
+
+.fa-facebook,
+.fa-instagram {
+  font-size: 1.5rem;
+  width: 30px;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover {
+  color: #333;
+}
+
+.testando {
+  width: 30px;
+  height: 30px;
+}
+
+.img__whats2 {
+  margin-right: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}

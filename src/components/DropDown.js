@@ -11,31 +11,47 @@ export default function DropDown() {
   const menuItems = [
     { key: "consignado", name: "Emprestimo consignado" },
     { key: "fgts", name: "Antecipação saque FGTS" },
+    { key: "trocacredito", name: "Troca Credito" },
+    { key: "pessoal", name: "Pessoal Inss" },
+    { key: "cartaobeneficiario", name: "Cartão Beneficiario" },
+    { key: "aberturacartao", name: "Abertura de Conta" },
     { key: "cartaoconsignado", name: "Cartão Consignado" },
-    { key: "cartaobeneficiario", name: "Cartão beneficiario" },
+    { key: "financiamentoveiculo", name: "Financiamento Veiculo" },
+    { key: "refinanciamentoveiculo", name: "Refinanciamento Veiculo" },
+    { key: "consorcio", name: "Consorcio" },
   ];
 
   const router = useRouter();
   return (
     <Dropdown>
       <Dropdown.Button
-        color={selectedColor}
         css={{
           fontWeight: "$semibold",
           fontSize: "1rem",
-          fontFamily: "$Lato sans-serif",
+          color:"white",
         }}
-        className={styles.aa}
+        className={styles.instituicao}
         light
       >
-        Emprestimos
+       Produtos
       </Dropdown.Button>
-      <Dropdown.Menu className={styles.aa} aria-label="" items={menuItems}>
+      <Dropdown.Menu css={
+              {
+               background:"#f0f0f04",
+              }
+            } className={styles.aa} aria-label="" items={menuItems}>
         {(item) => (
           <Dropdown.Item
-            // key={item.key}
-            // color={item.key === "cartaob" ? "error" : "default"}
+             key={item.key}
             className={styles.aas}
+            css={
+              {
+                borderTop:"1px solid #22222224",
+                boxShadow:"0 2px 4px rgba(0, 0, 0, 0.1)",
+                borderBottom:"1px solid #22222224",
+                marginTop:"0.5rem",
+              }
+            }
           >
             <Link css={{
           fontWeight: "$semibold",
