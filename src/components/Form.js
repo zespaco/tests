@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+
 import ReCAPTCHA from "react-google-recaptcha";
 const CAPTCHA_SITE_KEY = "6Lf2RzknAAAAAFqo58LzF2rAii86boOlUxV0ATTQ";
 
