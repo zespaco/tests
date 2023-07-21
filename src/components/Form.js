@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 import ReCAPTCHA from "react-google-recaptcha";
-const CAPTCHA_SITE_KEY = "6Lf2RzknAAAAAFqo58LzF2rAii86boOlUxV0ATTQ";
+const CAPTCHA_SITE_KEY = "6LfrBkMnAAAAAB6jQK1aWdaqOzGa2bxmnu4H_TBN";
 
 const Form = ({ Pagetype }) => {
   const router = useRouter();
