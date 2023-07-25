@@ -12,7 +12,7 @@
 .test {
   display: flex;
   justify-content: center;
-  background-image: url(../src/image/mockup.jpg);
+  background-image: url(../src/image/mockup.webp);
   background-size: cover;
   flex-direction: column;
   align-items: center;
@@ -64,7 +64,7 @@
   align-items: center;
 }
 .Img {
-  background-image: url(../src/image/escudo.png);
+  background-image: url(../src/image/escudo.webp);
   max-width: 80px;
   padding-bottom: 10px;
   width: 80px;
@@ -75,7 +75,7 @@
 .Img2 {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/lampada.png);
+  background-image: url(../src/image/lampada.webp);
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -84,7 +84,7 @@
 .Img3 {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/comprometimento.png);
+  background-image: url(../src/image/comprometimento.webp);
   width: 80px;
   height: 80px;
   background-size: cover;

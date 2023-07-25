@@ -5,18 +5,18 @@ import Footer from "../components/Footer";
 
 import Image from "next/image";
 
-import toque from "../image/toque.png";
-import consignado from "../image/mulher-sorrindo.jpg";
-import fgts from "../image/homem-comemorando.jpg";
-import troca from "../image/troque-credito.jpg";
-import pessoal from "../image/mulher-dinheiro-mao.jpg";
-import cartaob from "../image/cartao-beneficiario.jpg";
-import abertura from "../image/abertura-cartao.jpg";
-import cartaoc from "../image/cartao-consignado.jpg";
-import financiamento from "../image/financiamento-veiculo.jpg";
-import refinanciamento from "../image/refinanciamento-veiculo.jpg";
-import consorcio from "../image/consorcio.jpg";
-import whats from "../image/whatsapp.png";
+import toque from "../image/toque.webp";
+import consignado from "../image/mulher-sorrindo.webp";
+import fgts from "../image/homem-comemorando.webp";
+import troca from "../image/troque-credito.webp";
+import pessoal from "../image/mulher-dinheiro-mao.webp";
+import cartaob from "../image/cartao-beneficiario.webp";
+import abertura from "../image/abertura-cartao.webp";
+import cartaoc from "../image/cartao-consignado.webp";
+import financiamento from "../image/financiamento-veiculo.webp";
+import refinanciamento from "../image/refinanciamento-veiculo.webp";
+import consorcio from "../image/consorcio.webp";
+import whats from "../image/whatsapp.webp";
 
 export default function Home() {
   return (

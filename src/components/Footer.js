@@ -1,9 +1,9 @@
 import Image from "next/image";
 import styles from "../../styles/Footer.module.css";
 import logoicone from "../../public/favicon.ico";
-import whats from "../image/whatsapp.png";
-import face from "../image/facebook.png";
-import insta from "../image/instagram.png";
+import whats from "../image/whatsapp.webp";
+import face from "../image/facebook.webp";
+import insta from "../image/instagram.webp";
 
 
 const Footer = () => {

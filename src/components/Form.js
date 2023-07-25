@@ -6,9 +6,6 @@ import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
-import ReCAPTCHA from "react-google-recaptcha";
-const CAPTCHA_SITE_KEY = "6LfrBkMnAAAAAB6jQK1aWdaqOzGa2bxmnu4H_TBN";
-
 const Form = ({ Pagetype }) => {
   const router = useRouter();
   const [showAnimation, setShowAnimation] = useState(false);
@@ -38,7 +35,7 @@ const Form = ({ Pagetype }) => {
     } else if (router.pathname === "/cartaoconsignado") {
       setformUrl("Emprestimo cartão consignado");
     } else {
-      setformUrl("erro");
+      setformUrl("Não reconheceu");
     }
   }, [router.pathname]);
 
@@ -243,9 +240,6 @@ const Form = ({ Pagetype }) => {
               </div>
             </div>
 
-            <div className={styles.recaptchaContainer}>
-              <ReCAPTCHA sitekey={CAPTCHA_SITE_KEY} />
-            </div>
             <div className={styles.test3}>
               <div className={styles.box__btn}>
                 <input

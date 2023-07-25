@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styles from "../../styles/TroqueCredito.module.css";
 import Image from "next/image";
-import whats from "../image/whatsapp.png";
+import whats from "../image/whatsapp.webp";
 import Faq from "@/components/Faq";
 
 export default function TrocaCredito() {

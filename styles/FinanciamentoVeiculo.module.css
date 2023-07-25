@@ -9,7 +9,7 @@
   position: relative;
   overflow: hidden;
   align-items: left;
-  background-image: url(../src/image/financiamento-veiculo.jpg);
+  background-image: url(../src/image/financiamento-veiculo.webp);
   background-position-y: 20%;
 }
 
@@ -228,7 +228,7 @@
 .valueCardImg {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/praticidade.png);
+  background-image: url(../src/image/praticidade.webp);
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -237,7 +237,7 @@
 .valueCardImg2 {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/fundos.png);
+  background-image: url(../src/image/fundos.webp);
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -246,7 +246,7 @@
 .valueCardImg3 {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/prazo.png);
+  background-image: url(../src/image/prazo.webp);
   width: 80px;
   height: 80px;
   background-size: cover;

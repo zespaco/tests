@@ -9,7 +9,7 @@
   position: relative;
   overflow: hidden;
   align-items: left;
-  background-image: url(../src/image/cartao-consignado.jpg);
+  background-image: url(../src/image/cartao-consignado.webp);
 }
 
 .hero::before {
@@ -227,7 +227,7 @@
 .valueCardImg {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/economizar.png);
+  background-image: url(../src/image/economizar.webp);
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -236,7 +236,7 @@
 .valueCardImg2 {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/fundos.png);
+  background-image: url(../src/image/fundos.webp);
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -245,7 +245,7 @@
 .valueCardImg3 {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/negativado.png);
+  background-image: url(../src/image/negativado.webp);
   width: 80px;
   height: 80px;
   background-size: cover;
@@ -254,7 +254,7 @@
 .valueCardImg4 {
   max-width: 80px;
   margin-bottom: 10px;
-  background-image: url(../src/image/bolsadinheiro.png);
+  background-image: url(../src/image/bolsadinheiro.webp);
   width: 80px;
   height: 80px;
   background-size: cover;

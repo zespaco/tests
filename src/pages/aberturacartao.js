@@ -5,7 +5,7 @@ import FormMain from "../components/FormMain";
 import styles from "../../styles/Abertura.module.css";
 
 import Image from "next/image";
-import whats from "../image/whatsapp.png";
+import whats from "../image/whatsapp.webp";
 import Faq from "@/components/Faq";
 
 
