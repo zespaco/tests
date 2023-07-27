@@ -34,7 +34,7 @@ export default function Home() {
       <main>
         <section className={styles.hero}>
           <div className={styles.title__slide}>
-            Bem-vindo à nossa plataforma de serviços financeiros
+            Bem-vindo à nossa plataforma de serviços financeiro
           </div>
           <p className={styles.frase__slide}>
             Aqui você encontra soluções para suas necessidades financeiras, de
