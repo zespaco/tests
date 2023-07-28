@@ -125,3 +125,13 @@
   width: 1.5rem;
   height: 1.5rem;
 }
+
+@media screen and (max-width: 614px) {
+  .groupfooter{
+    display: flex;
+    flex-direction: column;
+  }
+  .social{
+    padding-top: 2rem;
+  }
+}

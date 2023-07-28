@@ -16,11 +16,11 @@ body {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 section {
   background-color: #fff;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,3 +28,4 @@ section {
     color-scheme: dark;
   }
 }
+

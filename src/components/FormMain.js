@@ -1,5 +1,4 @@
 import styles from "../../styles/simulacao.module.css";
-import emailjs from "@emailjs/browser";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useRouter } from "next/router";

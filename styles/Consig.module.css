@@ -1,6 +1,6 @@
 .hero {
   background-size: cover;
-  height: 100vh;
+  height: auto; /* Alteração: altura ajustável */
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@
   color: #fff;
   position: relative;
   overflow: hidden;
-  align-items: left;
+  align-items: left; /* Essa propriedade não faz sentido em flex container */
   background-image: url(../src/image/mulher-sorrindo.webp);
 }
 
@@ -127,7 +127,8 @@
 }
 
 .col {
-  padding: 0;
+  padding-right: -2rem;
+  /* margin-right: -2rem; */
   position: relative;
 }
 
@@ -308,4 +309,122 @@
   height: 100%;
   padding: 1rem;
   border-radius: 10px;
+}
+
+/* responsivo */
+
+@media screen and (max-width: 1024px) {
+  .bloco2 {
+    width: 50%;
+  }
+
+  .heroTitle {
+    font-size: 36px;
+    margin-bottom: 40px;
+    width: 10%;
+    width: 130%;
+  }
+  .heroText {
+    font-size: 18px;
+    margin-bottom: 60px;
+    width: 90%;
+  }
+  .contratarTitle {
+    font-size: 2.5rem;
+    width: 100%;
+    color: #333;
+    padding-left: 2.5rem;
+    text-align: left;
+  }
+  .contratarText {
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 70%;
+    color: #444;
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+    text-align: left;
+  }
+  .stepConnector {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 75%);
+    width: 2px;
+    background-color: #009688;
+    z-index: 1;
+    height: 160%;
+  }
+  .row:nth-last-child(3) .stepConnector {
+    height: 105%;
+    transform: translate(-50%, 115%);
+  }
+  .valueCard {
+    width: 20rem;
+  }
+}
+/* mobile */
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    padding-top: 2rem;
+    display: flex;
+  }
+  .heroContent {
+    width: 70%;
+  }
+  .hero {
+    padding: 40px 10px;
+  }
+  .howToApply {
+    padding: 40px 10px;
+  }
+  .advantages {
+    padding: 40px 10px;
+  }
+  .contratarTitle {
+    font-size: 2.5rem;
+  }
+  .stepContent {
+    margin-left: 30px;
+  }
+  .row {
+    margin-left: 30px;
+  }
+  .stepConnector {
+    height: 256%;
+    transform: translate(-50%, 48%);
+  }
+  .row:nth-last-child(3) .stepConnector {
+    height: 156%;
+    transform: translate(-50%, 77%);
+  }
+  .row:nth-last-child(2) .stepConnector {
+    height: 292%;
+    transform: translate(-50%, 42%);
+  }
+  .contratarText {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .form__p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 614px) {
+  .howToApply {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn2 {
+    margin-bottom: 4rem;
+  }
+  .contratarText {
+    padding-bottom: 1rem;
+  }
+  .stepConnector{
+    display: none;
+  }
+  .form__p{
+    width: 90%;
+  }
 }
